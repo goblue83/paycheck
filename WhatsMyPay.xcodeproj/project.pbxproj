@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B324E754138DE855006BCD24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324E753138DE855006BCD24 /* UIKit.framework */; };
+		B324E756138DE855006BCD24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324E755138DE855006BCD24 /* Foundation.framework */; };
+		B324E758138DE855006BCD24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324E757138DE855006BCD24 /* CoreGraphics.framework */; };
+		B324E75E138DE855006BCD24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B324E75C138DE855006BCD24 /* InfoPlist.strings */; };
+		B324E761138DE855006BCD24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B324E760138DE855006BCD24 /* main.m */; };
+		B324E764138DE855006BCD24 /* WhatsMyPayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B324E763138DE855006BCD24 /* WhatsMyPayAppDelegate.m */; };
+		B324E767138DE855006BCD24 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B324E765138DE855006BCD24 /* MainWindow.xib */; };
+		B324E76E138DE856006BCD24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324E753138DE855006BCD24 /* UIKit.framework */; };
+		B324E76F138DE856006BCD24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324E755138DE855006BCD24 /* Foundation.framework */; };
+		B324E770138DE856006BCD24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B324E757138DE855006BCD24 /* CoreGraphics.framework */; };
+		B324E778138DE856006BCD24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B324E776138DE856006BCD24 /* InfoPlist.strings */; };
+		B324E77B138DE856006BCD24 /* WhatsMyPayTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B324E77A138DE856006BCD24 /* WhatsMyPayTests.h */; };
+		B324E77D138DE856006BCD24 /* WhatsMyPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B324E77C138DE856006BCD24 /* WhatsMyPayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B324E771138DE856006BCD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B324E746138DE854006BCD24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B324E74E138DE855006BCD24;
+			remoteInfo = WhatsMyPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B324E74F138DE855006BCD24 /* WhatsMyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsMyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B324E753138DE855006BCD24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B324E755138DE855006BCD24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B324E757138DE855006BCD24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B324E75B138DE855006BCD24 /* WhatsMyPay-Info.plist */ = {isa = PBXFileReference; path = "WhatsMyPay-Info.plist"; sourceTree = "<group>"; };
+		B324E75D138DE855006BCD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B324E75F138DE855006BCD24 /* WhatsMyPay-Prefix.pch */ = {isa = PBXFileReference; path = "WhatsMyPay-Prefix.pch"; sourceTree = "<group>"; };
+		B324E760138DE855006BCD24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B324E762138DE855006BCD24 /* WhatsMyPayAppDelegate.h */ = {isa = PBXFileReference; path = WhatsMyPayAppDelegate.h; sourceTree = "<group>"; };
+		B324E763138DE855006BCD24 /* WhatsMyPayAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsMyPayAppDelegate.m; sourceTree = "<group>"; };
+		B324E766138DE855006BCD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B324E76D138DE856006BCD24 /* WhatsMyPayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsMyPayTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B324E775138DE856006BCD24 /* WhatsMyPayTests-Info.plist */ = {isa = PBXFileReference; path = "WhatsMyPayTests-Info.plist"; sourceTree = "<group>"; };
+		B324E777138DE856006BCD24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B324E779138DE856006BCD24 /* WhatsMyPayTests-Prefix.pch */ = {isa = PBXFileReference; path = "WhatsMyPayTests-Prefix.pch"; sourceTree = "<group>"; };
+		B324E77A138DE856006BCD24 /* WhatsMyPayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhatsMyPayTests.h; sourceTree = "<group>"; };
+		B324E77C138DE856006BCD24 /* WhatsMyPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatsMyPayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B324E74C138DE855006BCD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B324E754138DE855006BCD24 /* UIKit.framework in Frameworks */,
+				B324E756138DE855006BCD24 /* Foundation.framework in Frameworks */,
+				B324E758138DE855006BCD24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B324E769138DE856006BCD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B324E76E138DE856006BCD24 /* UIKit.framework in Frameworks */,
+				B324E76F138DE856006BCD24 /* Foundation.framework in Frameworks */,
+				B324E770138DE856006BCD24 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B324E744138DE854006BCD24 = {
+			isa = PBXGroup;
+			children = (
+				B324E759138DE855006BCD24 /* WhatsMyPay */,
+				B324E773138DE856006BCD24 /* WhatsMyPayTests */,
+				B324E752138DE855006BCD24 /* Frameworks */,
+				B324E750138DE855006BCD24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B324E750138DE855006BCD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B324E74F138DE855006BCD24 /* WhatsMyPay.app */,
+				B324E76D138DE856006BCD24 /* WhatsMyPayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B324E752138DE855006BCD24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B324E753138DE855006BCD24 /* UIKit.framework */,
+				B324E755138DE855006BCD24 /* Foundation.framework */,
+				B324E757138DE855006BCD24 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B324E759138DE855006BCD24 /* WhatsMyPay */ = {
+			isa = PBXGroup;
+			children = (
+				B324E762138DE855006BCD24 /* WhatsMyPayAppDelegate.h */,
+				B324E763138DE855006BCD24 /* WhatsMyPayAppDelegate.m */,
+				B324E765138DE855006BCD24 /* MainWindow.xib */,
+				B324E75A138DE855006BCD24 /* Supporting Files */,
+			);
+			path = WhatsMyPay;
+			sourceTree = "<group>";
+		};
+		B324E75A138DE855006BCD24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B324E75B138DE855006BCD24 /* WhatsMyPay-Info.plist */,
+				B324E75C138DE855006BCD24 /* InfoPlist.strings */,
+				B324E75F138DE855006BCD24 /* WhatsMyPay-Prefix.pch */,
+				B324E760138DE855006BCD24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B324E773138DE856006BCD24 /* WhatsMyPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B324E77A138DE856006BCD24 /* WhatsMyPayTests.h */,
+				B324E77C138DE856006BCD24 /* WhatsMyPayTests.m */,
+				B324E774138DE856006BCD24 /* Supporting Files */,
+			);
+			path = WhatsMyPayTests;
+			sourceTree = "<group>";
+		};
+		B324E774138DE856006BCD24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B324E775138DE856006BCD24 /* WhatsMyPayTests-Info.plist */,
+				B324E776138DE856006BCD24 /* InfoPlist.strings */,
+				B324E779138DE856006BCD24 /* WhatsMyPayTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B324E74E138DE855006BCD24 /* WhatsMyPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B324E780138DE856006BCD24 /* Build configuration list for PBXNativeTarget "WhatsMyPay" */;
+			buildPhases = (
+				B324E74B138DE855006BCD24 /* Sources */,
+				B324E74C138DE855006BCD24 /* Frameworks */,
+				B324E74D138DE855006BCD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsMyPay;
+			productName = WhatsMyPay;
+			productReference = B324E74F138DE855006BCD24 /* WhatsMyPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B324E76C138DE856006BCD24 /* WhatsMyPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B324E783138DE856006BCD24 /* Build configuration list for PBXNativeTarget "WhatsMyPayTests" */;
+			buildPhases = (
+				B324E768138DE856006BCD24 /* Sources */,
+				B324E769138DE856006BCD24 /* Frameworks */,
+				B324E76A138DE856006BCD24 /* Resources */,
+				B324E76B138DE856006BCD24 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B324E772138DE856006BCD24 /* PBXTargetDependency */,
+			);
+			name = WhatsMyPayTests;
+			productName = WhatsMyPayTests;
+			productReference = B324E76D138DE856006BCD24 /* WhatsMyPayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B324E746138DE854006BCD24 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B324E749138DE854006BCD24 /* Build configuration list for PBXProject "WhatsMyPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B324E744138DE854006BCD24;
+			productRefGroup = B324E750138DE855006BCD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B324E74E138DE855006BCD24 /* WhatsMyPay */,
+				B324E76C138DE856006BCD24 /* WhatsMyPayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B324E74D138DE855006BCD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B324E75E138DE855006BCD24 /* InfoPlist.strings in Resources */,
+				B324E767138DE855006BCD24 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B324E76A138DE856006BCD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B324E778138DE856006BCD24 /* InfoPlist.strings in Resources */,
+				B324E77B138DE856006BCD24 /* WhatsMyPayTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B324E76B138DE856006BCD24 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B324E74B138DE855006BCD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B324E761138DE855006BCD24 /* main.m in Sources */,
+				B324E764138DE855006BCD24 /* WhatsMyPayAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B324E768138DE856006BCD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B324E77D138DE856006BCD24 /* WhatsMyPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B324E772138DE856006BCD24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B324E74E138DE855006BCD24 /* WhatsMyPay */;
+			targetProxy = B324E771138DE856006BCD24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B324E75C138DE855006BCD24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B324E75D138DE855006BCD24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B324E765138DE855006BCD24 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B324E766138DE855006BCD24 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B324E776138DE856006BCD24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B324E777138DE856006BCD24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B324E77E138DE856006BCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B324E77F138DE856006BCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B324E781138DE856006BCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsMyPay/WhatsMyPay-Prefix.pch";
+				INFOPLIST_FILE = "WhatsMyPay/WhatsMyPay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B324E782138DE856006BCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsMyPay/WhatsMyPay-Prefix.pch";
+				INFOPLIST_FILE = "WhatsMyPay/WhatsMyPay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B324E784138DE856006BCD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatsMyPay.app/WhatsMyPay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsMyPayTests/WhatsMyPayTests-Prefix.pch";
+				INFOPLIST_FILE = "WhatsMyPayTests/WhatsMyPayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B324E785138DE856006BCD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WhatsMyPay.app/WhatsMyPay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WhatsMyPayTests/WhatsMyPayTests-Prefix.pch";
+				INFOPLIST_FILE = "WhatsMyPayTests/WhatsMyPayTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B324E749138DE854006BCD24 /* Build configuration list for PBXProject "WhatsMyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B324E77E138DE856006BCD24 /* Debug */,
+				B324E77F138DE856006BCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B324E780138DE856006BCD24 /* Build configuration list for PBXNativeTarget "WhatsMyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B324E781138DE856006BCD24 /* Debug */,
+				B324E782138DE856006BCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B324E783138DE856006BCD24 /* Build configuration list for PBXNativeTarget "WhatsMyPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B324E784138DE856006BCD24 /* Debug */,
+				B324E785138DE856006BCD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B324E746138DE854006BCD24 /* Project object */;
+}
